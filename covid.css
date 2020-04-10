@@ -28,7 +28,7 @@ input{
   width: 80%;
   margin: 0 0 10;
   border-radius: 5px;
-  color: green;
+  color: rgb(3, 2, 68);
 }
 h4 {
   color: rgb(232, 247, 28);
@@ -39,8 +39,10 @@ h4 {
   text-shadow: 2px 2px rgba(68, 145, 53, 0.5);
 }
 button{
-  color: green;
+  color: black;
+  font-size: 25px;
 }
 .send{
-  border-color: greenyellow;
+  border-color: rgb(25, 4, 117);
+  font-size: medium;
 }
