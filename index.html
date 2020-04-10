@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="covid.css">
+    <title>covid-19-estimator</title>
+</head>
+<body>
+    <div class="container">
+        <form action="result.html" method="POST" class="componet">
+            <h2>Welcome to the covid-19-estimator</h2>
+            <h3>Please fill in the fields below.</h3>
+            <div class="data">
+                <h4>Population:</h4><input data-population="index" type="number">
+            </div>
+
+            <div class="data">
+                <h4>Time to Elapse</h4><input data-time-to-elapse ="" type="">
+            </div>
+            <div class="data">
+                <h4>Reported Cases</h4><input data-reported-cases="">
+            </div>
+            <div class="data">
+                <h4>Total Hospital beds</h4><input data-reported-cases="">
+            </div>
+            <div class="data" id="period">
+                <h4>Period Type</h4><input type="number"><select data-period-type = "">
+                    <option value="days">Days</option>
+                    <option value="weeks">Weeks</option>
+                    <option value="days">Months</option>
+                </select>
+            </div>
+           <center> <button id="send" data-go-estimate="" type="submit">Send</button></center>
+        </form>
+    </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
